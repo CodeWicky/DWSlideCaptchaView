@@ -1,5 +1,5 @@
 <p align="center" >
-<font size="10">DWSlideCaptchaView</font>
+<font size="20">DWSlideCaptchaView</font>
 </p>
 
 <p align="center" >
