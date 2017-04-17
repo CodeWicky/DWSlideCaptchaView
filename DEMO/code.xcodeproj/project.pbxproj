@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B780EEB1E9FA50B0014746A /* UIImage+DWImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B780EEA1E9FA50B0014746A /* UIImage+DWImageUtils.m */; };
+		9B780F131EA4A90E0014746A /* UIImage+DWImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B780F121EA4A90E0014746A /* UIImage+DWImageUtils.m */; };
 		9BA854B41E9E78EF00970235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA854B31E9E78EF00970235 /* main.m */; };
 		9BA854B71E9E78EF00970235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA854B61E9E78EF00970235 /* AppDelegate.m */; };
 		9BA854BA1E9E78EF00970235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA854B91E9E78EF00970235 /* ViewController.m */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B780EE91E9FA50B0014746A /* UIImage+DWImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+DWImageUtils.h"; path = "../../Wicky/Git/一些工具类/DWImageUtils/UIImage+DWImageUtils.h"; sourceTree = "<group>"; };
-		9B780EEA1E9FA50B0014746A /* UIImage+DWImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DWImageUtils.m"; path = "../../Wicky/Git/一些工具类/DWImageUtils/UIImage+DWImageUtils.m"; sourceTree = "<group>"; };
-		9B780EEC1E9FC5CD0014746A /* DWMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DWMacro.h; path = "../../Wicky/Git/一些工具类/DWMacro/DWMacro.h"; sourceTree = "<group>"; };
+		9B780F101EA4A90E0014746A /* DWMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMacro.h; sourceTree = "<group>"; };
+		9B780F111EA4A90E0014746A /* UIImage+DWImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DWImageUtils.h"; sourceTree = "<group>"; };
+		9B780F121EA4A90E0014746A /* UIImage+DWImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DWImageUtils.m"; sourceTree = "<group>"; };
 		9BA854AF1E9E78EF00970235 /* code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA854B31E9E78EF00970235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BA854B51E9E78EF00970235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,13 +74,13 @@
 			children = (
 				9BA854B51E9E78EF00970235 /* AppDelegate.h */,
 				9BA854B61E9E78EF00970235 /* AppDelegate.m */,
-				9B780EEC1E9FC5CD0014746A /* DWMacro.h */,
 				9BA854B81E9E78EF00970235 /* ViewController.h */,
 				9BA854B91E9E78EF00970235 /* ViewController.m */,
 				9BA854D41E9F795C00970235 /* 10.jpg */,
 				9BA854D21E9F2A9A00970235 /* 2.jpg */,
-				9B780EE91E9FA50B0014746A /* UIImage+DWImageUtils.h */,
-				9B780EEA1E9FA50B0014746A /* UIImage+DWImageUtils.m */,
+				9B780F101EA4A90E0014746A /* DWMacro.h */,
+				9B780F111EA4A90E0014746A /* UIImage+DWImageUtils.h */,
+				9B780F121EA4A90E0014746A /* UIImage+DWImageUtils.m */,
 				9BA854CF1E9E7E4D00970235 /* UIBezierPath+DWPathUtils.h */,
 				9BA854D01E9E7E4D00970235 /* UIBezierPath+DWPathUtils.m */,
 				9BA854C91E9E797200970235 /* DWSlideCaptchaView.h */,
@@ -178,7 +178,7 @@
 			files = (
 				9BA854D11E9E7E4D00970235 /* UIBezierPath+DWPathUtils.m in Sources */,
 				9BA854BA1E9E78EF00970235 /* ViewController.m in Sources */,
-				9B780EEB1E9FA50B0014746A /* UIImage+DWImageUtils.m in Sources */,
+				9B780F131EA4A90E0014746A /* UIImage+DWImageUtils.m in Sources */,
 				9BA854B71E9E78EF00970235 /* AppDelegate.m in Sources */,
 				9BA854CB1E9E797200970235 /* DWSlideCaptchaView.m in Sources */,
 				9BA854B41E9E78EF00970235 /* main.m in Sources */,
