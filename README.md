@@ -15,10 +15,10 @@ By the way I provide two protocol method which may be called when the identifyAn
 
 If you want you combine the CaptchaView with a slider(usually you may use a slider to change the value of thumb,you may also use -touchBegan to move it to point) just use The DWDefaultSlideCaptchaView or customsize it as you want.
 
-When you customsizing the captchaView you may just focus on how the set the thumb currentPoint and when should you do the identify.You can easily find it in DWDefaultSlideCaptchaView.
+When you are customsizing the captchaView you may just focus on how the set the thumb currentPoint and when should you do the identify.You can easily find it in DWDefaultSlideCaptchaView.
 
 ## 描述
-这是一个类，有了他，你可以快速集成滑动验证功能。
+这是一个可以帮你快速集成滑动验证功能的类。
 
 使用我提供的基础类，DWSlideCaptchaView，你可以定制验证视图中背景图片/滑块形状/验证点/验证成功动画/验证失败动画。
 
@@ -74,9 +74,9 @@ As said above,there are two protocol method that tell you the identifyAnimation'
 当然，为了更加多元化的使用它，你可以通过修改一些属性来让他更加适合你的需求。**但是，一定要记得，在改变属性之前，调用`-beginConfigration`方法，并在改变属性之后调用`-commitConfigration`方法，否则属性将不会被赋值或者不会奏效**。
 
 
-## Contact with me
+## Contact With Me
 
-You may issue me on [my Github](https://github.com/CodeWicky/DWSlideCaptchaView) or send me a email at [codeWicky@163.com]() to tell me some advise of the bug,I will be so appreciated.
+You may issue me on [my Github](https://github.com/CodeWicky/DWSlideCaptchaView) or send me a email at [codeWicky@163.com]() to tell me some advices or the bug,I will be so appreciated.
 
 If you like it please give a star.
 
