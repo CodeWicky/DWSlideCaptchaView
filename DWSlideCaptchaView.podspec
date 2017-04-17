@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DWSlideCaptchaView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A view to help you to do the slide captcha."
   s.description  = "A view to help you to do the slide captcha.You can customsize it as you want."
   s.homepage     = "https://github.com/CodeWicky/DWSlideCaptchaView"
