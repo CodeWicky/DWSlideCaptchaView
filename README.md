@@ -3,7 +3,7 @@
 </p>
 
 <p align="center" >
-  <img src="https://github.com/CodeWicky/DWSlideCaptchaView/raw/master/%E5%8A%A8%E7%94%BB%E5%B1%95%E7%A4%BA.gif" alt="AFNetworking" title="AFNetworking">
+  <img src="https://github.com/CodeWicky/DWSlideCaptchaView/raw/master/%E5%8A%A8%E7%94%BB%E5%B1%95%E7%A4%BA.gif" alt="DWSlideCaptchaView" title="DWSlideCaptchaView">
 </p>
 
 ## Description
