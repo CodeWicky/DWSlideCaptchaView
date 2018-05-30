@@ -365,7 +365,7 @@ static inline CAAnimation * defaultFailAnimation(id<CAAnimationDelegate> delegat
         _targetPoint = randomPointInSize(self.validSize);
         return _targetPoint;
     }
-    CGFloat x = (self.targetValue != DWSlideCaptchaUndefineValue) ? self.targetValue : randomValueInLength((int)self.validSize.width);
+    CGFloat x = (self.targetValue != DWSlideCaptchaUndefineValue) ? self.targetValue * self.frame.size.width : randomValueInLength((int)self.validSize.width);
     CGFloat y = (self.thumbCenterY != DWSlideCaptchaUndefineValue) ? fixCenterYWithSize(self.thumbSize, self.validSize, self.thumbCenterY) : randomValueInLength((int)self.validSize.height);
     _targetPoint = CGPointMake(x, y);
     return _targetPoint;
